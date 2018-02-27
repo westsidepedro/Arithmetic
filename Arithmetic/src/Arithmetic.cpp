@@ -18,7 +18,7 @@ using namespace std;
  * /=		x/y=(new)x
  * *=		x*y=(new)x
  * %		the remainder of x/y   ie  rValue=15%7 = 7x2=14  15-14=1  rValue=1
- * %=
+ * %=						^if y>x the rValue=x
  * precedence
  */
 int main()
